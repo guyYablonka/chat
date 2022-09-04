@@ -1,0 +1,15 @@
+label.sort-toggle i.rcx-box {
+	color: var(--rcx-button-colors-ghost-color) !important;
+	background-color: transparent !important;
+	border-color: var(--rcx-button-colors-ghost-color) !important;
+	border: 2px solid transparent;
+	height: 1.15rem !important;
+	width: 2.2rem !important;
+	margin-right: 0.65rem;
+}
+
+label.sort-toggle .rcx-toggle-switch__fake::before {
+    width: 0.9rem;
+    height: 0.88rem;
+	margin-right: 0.05rem;
+}

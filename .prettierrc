@@ -1,0 +1,17 @@
+{
+    "semi": true,
+    "trailingComma": "none",
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": "*.html",
+            "options": {
+                "printWidth": 200
+            }
+        }
+    ]
+}

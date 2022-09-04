@@ -1,0 +1,7 @@
+[
+	{
+		"callbackName": "userClickedOnWhatsNewButton",
+		"eventName": "User clicked on whats new button",
+		"piwikCode": "piwik-user-clicked-on-whats-new-button"
+	}
+]

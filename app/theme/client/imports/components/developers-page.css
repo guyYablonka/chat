@@ -1,0 +1,29 @@
+/* Developers Page */
+
+.rc-dp-parag {
+	margin-right: 15px;
+
+	&__header {
+		text-decoration: underline;
+		margin-bottom: 14px;
+		font-size: 15px;
+	}
+
+	&__content {
+		margin-top: 10px;
+	}
+}
+
+.rc-dp-list {
+	&__ulist {
+		list-style-type: circle;
+	}
+
+	&__olist {
+		list-style-type: decimal;
+	}
+
+	li {
+		margin-bottom: 10px;
+	}
+}

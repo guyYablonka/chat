@@ -1,0 +1,151 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": ["prettier", "eslint:recommended"],
+    "parser": "babel-eslint",
+    "globals": {
+        "__meteor_bootstrap__": "readonly",
+        "__meteor_runtime_config__": "readonly",
+        "Assets": "readonly",
+        "chrome": "readonly",
+        "jscolor": "readonly",
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "global": "readonly",
+        "process": "readonly",
+        "Meteor": "readonly",
+        "__filename": "readonly",
+        "__dirname": "readonly",
+        "module": "readonly",
+        "require": "readonly",
+        "$": "readonly",
+        "jQuery": "readonly",
+        "ClipboardItem": "readonly",
+        "check": "readonly",
+        "Match": "readonly",
+        "Buffer": "readonly",
+        "Random": "readonly"
+    },
+    "plugins": ["react", "react-hooks", "prettier"],
+    "rules": {
+        "no-prototype-builtins": "off",
+        "no-extra-boolean-cast": "off",
+        "no-misleading-character-class": "off",
+        "no-useless-escape": "warn",
+        "no-unused-vars": "warn",
+        "no-empty": "warn",
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/jsx-no-undef": "error",
+        "react/jsx-fragments": ["error", "syntax"],
+        "react/forbid-prop-types": [0, { "forbid": ["any"] }],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": [
+            "warn",
+            {
+                "additionalHooks": "(useComponentDidUpdate)"
+            }
+        ],
+        "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
+        "react/prop-types": 0
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".ts", ".tsx"]
+            }
+        },
+        "react": {
+            "version": "detect"
+        }
+    },
+    "overrides": [
+        {
+            "files": ["**/*.ts", "**/*.tsx"],
+            "extends": [
+                "plugin:@typescript-eslint/recommended",
+                "plugin:@typescript-eslint/eslint-recommended"
+            ],
+            "globals": {
+                "Atomics": "readonly",
+                "SharedArrayBuffer": "readonly"
+            },
+            "parser": "@typescript-eslint/parser",
+            "parserOptions": {
+                "sourceType": "module",
+                "ecmaVersion": 2018,
+                "warnOnUnsupportedTypeScriptVersion": false,
+                "ecmaFeatures": {
+                    "experimentalObjectRestSpread": true,
+                    "legacyDecorators": true,
+                    "jsx": true,
+                    "modules": true
+                }
+            },
+            "plugins": ["react", "@typescript-eslint"],
+            "rules": {
+                "func-call-spacing": "off",
+                "indent": "off",
+                "no-extra-parens": "off",
+                "no-spaced-func": "off",
+                "no-unused-vars": "off",
+                "no-useless-constructor": "off",
+                "no-use-before-define": "off",
+                "react/jsx-uses-react": "error",
+                "react/jsx-uses-vars": "error",
+                "react/jsx-no-undef": "error",
+                "react/jsx-fragments": ["error", "syntax"],
+                "@typescript-eslint/ban-ts-ignore": "off",
+                "@typescript-eslint/camelcase": "off",
+                "@typescript-eslint/explicit-function-return-type": "off",
+                "@typescript-eslint/interface-name-prefix": "off",
+                "@typescript-eslint/no-explicit-any": "warn",
+                "@typescript-eslint/no-unused-vars": [
+                    "warn",
+                    {
+                        "argsIgnorePattern": "^_"
+                    }
+                ]
+            },
+            "env": {
+                "browser": true,
+                "commonjs": true,
+                "es6": true,
+                "node": true
+            },
+            "settings": {
+                "import/resolver": {
+                    "node": {
+                        "extensions": [".js", ".ts", ".tsx"]
+                    }
+                },
+                "react": {
+                    "version": "detect"
+                }
+            }
+        },
+        {
+            "files": ["**/*.tests.*", "**/*.spec.*"],
+            "extends": [
+                "plugin:testing-library/react",
+                "plugin:jest-dom/recommended"
+            ],
+            "plugins": ["testing-library", "jest-dom"],
+            "globals": {
+                "jest": "readonly",
+                "expect": "readonly",
+                "describe": "readonly",
+                "before": "readonly",
+                "beforeEach": "readonly",
+                "after": "readonly",
+                "afterEach": "readonly",
+                "it": "readonly",
+                "beforeAll": "readonly",
+                "afterAll": "readonly"
+            },
+            "rules": { "testing-library/no-debugging-utils": "warn" }
+        }
+    ]
+}

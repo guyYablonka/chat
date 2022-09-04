@@ -1,0 +1,16 @@
+<template name="messagePopupUser">
+	<div class="popup-user" title="{{#if outside}}{{notIn}}{{/if}} {{#if suggestion}}{{_ 'Suggestion_from_recent_messages'}}{{/if}}">
+		{{#unless system}}
+		<div class="popup-user-avatar_wrap">
+			<div class="popup-user-status border-transparent-dark popup-user-status-{{status}}"></div>
+			<div class="popup-user-avatar" style="background-image:url({{avatarUrlFromUsername username avatarETag}});"></div>
+		</div>
+		{{/unless}}
+		<div class="popup-user-name"><strong>{{username}}</strong> {{name}}{{#if nickname}} ({{nickname}}){{/if}}</div>
+		<div class="popup-user-notice">
+			{{#if outside}}
+			<span class="popup-user-not_in_channel"> ({{notIn}})</span>
+			{{/if}}
+		</div>
+	</div>
+</template>

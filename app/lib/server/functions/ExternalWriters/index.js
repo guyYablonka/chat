@@ -1,0 +1,1 @@
+export { externalWriter } from './externalWriter';

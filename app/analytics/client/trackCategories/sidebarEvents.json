@@ -1,0 +1,7 @@
+[
+	{
+		"callbackName": "userClickedOnQuestionsAndAnswersButton",
+		"eventName": "User clicked on questions and answers button",
+		"piwikCode": "piwik-user-clicked-on-questions-and-answers-button"
+	}
+]

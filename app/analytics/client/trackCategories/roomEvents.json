@@ -1,0 +1,77 @@
+[
+	{
+		"callbackName": "userClickedOn-user-info",
+		"eventName": "User clicked on user info",
+		"piwikCode": "piwik-user-clicked-on-user-info"
+	},
+	{
+		"callbackName": "userClickedOn-members-list",
+		"eventName": "User clicked on members list",
+		"piwikCode": "piwik-user-clicked-on-members-list"
+	},
+	{
+		"callbackName": "userClickedOn-add-members",
+		"eventName": "User clicked on add members button from toolbox",
+		"piwikCode": "piwik-user-clicked-on-add-members-button-from-toolbox"
+	},
+	{
+		"callbackName": "userClickToAddMembersFromMembersList",
+		"eventName": "User click to add members from members list",
+		"piwikCode": "piwik-user-click-to-add-members-from-members-list"
+	},
+	{
+		"callbackName": "userClickedOn-starred-messages",
+		"eventName": "User clicked on starred messages",
+		"piwikCode": "piwik-user-clicked-on-starred-messages"
+	},
+	{
+		"callbackName": "userClickedOn-mentions",
+		"eventName": "User clicked on mentions",
+		"piwikCode": "piwik-user-clicked-mentions"
+	},
+	{
+		"callbackName": "userClickedOn-channel-settings",
+		"eventName": "User clicked on room info",
+		"piwikCode": "piwik-user-clicked-room-info"
+	},
+	{
+		"callbackName": "userClickedOn-shared-groups",
+		"eventName": "User clicked on shared groups",
+		"piwikCode": "piwik-user-clicked-shared-groups"
+	},
+	{
+		"callbackName": "userClickedOn-rocket-search",
+		"eventName": "User clicked on search messages",
+		"piwikCode": "piwik-user-clicked-on-search-messages"
+	},
+	{
+		"callbackName": "userIsSelectedMessage",
+		"eventName": "user selected message that he searched for",
+		"piwikCode": "piwik-user-is-searching-in-messages"
+	},
+	{
+		"callbackName": "userClickedOn-uploaded-files-list",
+		"eventName": "user click on files list button",
+		"piwikCode": "piwik-user-is-click-on-files-list-button"
+	},
+	{
+		"callbackName": "userDownloadFileFromFilesList",
+		"eventName": "User download file from files list",
+		"piwikCode": "piwik-user-download-file-from-files-list"
+	},
+	{
+		"callbackName": "roomTopicChanged",
+		"eventName": "Changed Topic",
+		"piwikCode": "analytics-room-topic-changed"
+	},
+	{
+		"callbackName": "userClickedScrollToBottom",
+		"eventName": "Clicked scroll to bottom",
+		"piwikCode": "piwik-user-clicked-on-scroll-to-bottom-button"
+	},
+	{
+		"callbackName": "userClickedNewMessages",
+		"eventName": "Clicked new messages button",
+		"piwikCode": "piwik-user-clicked-on-new-messages-button"
+	}
+]

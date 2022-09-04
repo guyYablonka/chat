@@ -1,0 +1,10 @@
+apiVersion: v1
+name: rocketchat
+version: 0.17.1
+appVersion: 3.11.1
+description:
+  Prepare to take off with the ultimate chat platform, experience the next
+  level of team communications
+engine: gotpl
+home: https://rocket.chat/
+icon: https://cdn-www.rocket.chat/images/logo/logo.svg

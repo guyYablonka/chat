@@ -1,0 +1,7 @@
+[
+	{
+		"callbackName": "userExpandedQuestionEntry",
+		"eventName": "User expanded question entry",
+		"piwikCode": "piwik-user-expanded-question-entry"
+	}
+]

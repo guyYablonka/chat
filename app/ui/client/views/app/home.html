@@ -1,0 +1,35 @@
+<template name="home">
+	<section class="page-container page-home page-static content-background-color landing-container">
+		{{> header sectionName="Home_Page"}}
+		<!-- <div class="content">{{{body}}}</div> -->
+
+		<div class="landing-content">
+			<div class="landing-header-container">
+				<p class="landing-header">ברוכים הבאים לצ'אט המבצעי</p>
+				<img src="assets/chat_logo.png" class="chat-logo" />
+			</div>
+			<p class="landing-help-text"><b>זקוקים לעזרה?</b> צוות הצ'אט המבצעי זמין בשבילך:</p>
+			<div class="landing-help-container">
+				<div class="landing-help-item">
+					<div class="helper-item-header">
+						<span class="help-item-icon">{{> Icon block="rc-input__icon-svg" icon="chat"}}</span>
+						<p>ערוץ תמיכה</p>
+					</div>
+					<p class="helper-item-text"><a href="{{ supportGroupLink }}">לחיצה כאן</a> תעביר אותך לערוץ התמיכה שלנו שם יעלה מולך נציג תמיכה מהצוות שלנו</p>
+				</div>
+				<div class="landing-help-item">
+					<div class="helper-item-header">
+						<span class="help-item-icon">{{> Icon block="rc-input__icon-svg" icon="phone"}}</span>
+						<p>בטלפון</p>
+					</div>
+					<div>
+						<p class="helper-item-text">{{ landLineNumber }}</p>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-container">
+				<p class="bottom-text">בצ'אט ניתן לדבר על נושאים בסיווג עד סודי ביותר ללא שו"ס</p>
+			</div>
+		</div>
+	</section>
+</template>

@@ -1,0 +1,11 @@
+.sidebar-wrapper-spacing {
+	margin-block-start: 0.5vh !important;
+}
+
+.sidebar-time-style {
+	font-weight: 300 !important;
+}
+
+.sidebar-divider-container {
+	height: 0.5vh !important;
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"callbackName": "userStatusManuallySet",
+		"eventName": "Status Manually Changed",
+		"piwikCode": "analytics-user-status-manually-set"
+	},
+	{
+		"callbackName": "userRegistered",
+		"eventName": "Registered",
+		"piwikCode": "piwik-user-resitered"
+	}
+]

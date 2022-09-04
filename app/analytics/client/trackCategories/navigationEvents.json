@@ -1,0 +1,7 @@
+[
+	{
+		"callbackName": "loginPageStateChange",
+		"eventName": "Login Page State Change",
+		"piwikCode": "analytics-login-state-change"
+	}
+]

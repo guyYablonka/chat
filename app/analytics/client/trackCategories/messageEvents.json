@@ -1,0 +1,57 @@
+[
+	{
+		"callbackName": "userClickToQuoteMessage",
+		"eventName": "Click to Quote message",
+		"piwikCode": "piwik-user-click-to-quote-message"
+	},
+	{
+		"callbackName": "userClickToSeeInfoOfReactionList",
+		"eventName": "Click to see info of reaction list",
+		"piwikCode": "piwik-user-click-to-see-info-of-reaction-list"
+	},
+	{
+		"callbackName": "userReactToMessage",
+		"eventName": "React with emoji to message",
+		"piwikCode": "piwik-user-react-with-emoji-to-message"
+	},
+	{
+		"callbackName": "userCopiedAMessage",
+		"eventName": "Copied a message",
+		"piwikCode": "piwik-user-copied-a-message"
+	},
+	{
+		"callbackName": "userCopiedAnImageMessage",
+		"eventName": "Copied an image message",
+		"piwikCode": "piwik-user-copied-an-image-message"
+	},
+	{
+		"callbackName": "userStarredMessage",
+		"eventName": "Starred Message",
+		"piwikCode": "piwik-user-user-starred-message"
+	},
+	{
+		"callbackName": "userUnstarredMessage",
+		"eventName": "unstarred Message",
+		"piwikCode": "piwik-user-user-unstarred-message"
+	},
+	{
+		"callbackName": "userClickForMessageInfo",
+		"eventName": "click for message info",
+		"piwikCode": "piwik-user-click-for-message-info"
+	},
+	{
+		"callbackName": "userDeletedMessage",
+		"eventName": "Deleted message",
+		"piwikCode": "piwik-user-deleted-message"
+	},
+	{
+		"callbackName": "userEditedMessage",
+		"eventName": "Edited message",
+		"piwikCode": "piwik-user-edited-message"
+	},
+	{
+		"callbackName": "userClickToReplyDirectly",
+		"eventName": "click to reply directly",
+		"piwikCode": "piwik-user-click-to-reply-directly"
+	}
+]

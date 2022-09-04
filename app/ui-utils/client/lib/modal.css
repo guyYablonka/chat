@@ -1,0 +1,4 @@
+.close-button-position-left {
+    justify-content: flex-end;
+    display: flex; 
+}
