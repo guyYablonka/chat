@@ -10,7 +10,7 @@
 						</label>
 						{{#if invalidComment}}
 						<div class="rc-input__error">
-							<div class="rc-input__error-icon">{{> Icon block="rc-input__error-icon" icon="warning" classes="rc-input__error-icon-svg"}}</div>
+							<div class="rc-input__error-icon">{{> icon block="rc-input__error-icon" icon="warning" classes="rc-input__error-icon-svg"}}</div>
 							<div class="rc-input__error-message">{{_ "Please_add_a_comment_to_close_the_room"}}</div>
 						</div>
 						{{/if}}
@@ -29,13 +29,13 @@
 						{{else}}
 						<label class="rc-input__label">
 							<div class="rc-input__wrapper">
-								<div class="rc-input__icon">{{> Icon icon='edit' }}</div>
+								<div class="rc-input__icon">{{> icon icon='edit' }}</div>
 								<input id="tagInput" class="rc-input__element" type="text" name="tags" autocomplete="off" placeholder="{{tagsPlaceHolder}}" />
 							</div>
 						</label>
 						{{/if}} {{#if invalidTags}}
 						<div class="rc-input__error">
-							<div class="rc-input__error-icon">{{> Icon block="rc-input__error-icon" icon="warning" classes="rc-input__error-icon-svg"}}</div>
+							<div class="rc-input__error-icon">{{> icon block="rc-input__error-icon" icon="warning" classes="rc-input__error-icon-svg"}}</div>
 							<div class="rc-input__error-message">{{_ "error-tags-must-be-assigned-before-closing-chat"}}</div>
 						</div>
 						{{/if}}

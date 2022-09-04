@@ -1,13 +1,13 @@
 <template name="messageThread">
 	<q role="button" title="{{_ "Open_thread"}}" class="thread-quote js-open-thread">
-		{{> Icon icon="thread" block="thread-icons"}} <div class="thread-quote__message "><span class="message-body--unstyled">{{{parentMessage}}}</span></div>
+		{{> icon icon="thread" block="thread-icons"}} <div class="thread-quote__message "><span class="message-body--unstyled">{{{parentMessage}}}</span></div>
 		{{# if following }}
 		<div role="button" class="js-unfollow-thread" title="{{_ "Following"}}">
-			{{> Icon icon="bell" block="thread-icons"}}
+			{{> icon icon="bell" block="thread-icons"}}
 		</div>
 		{{else}}
 		<div role="button" class="js-follow-thread" title="{{_ "Not_following"}}">
-			{{> Icon icon="bell-off" block="thread-icons"}}
+			{{> icon icon="bell-off" block="thread-icons"}}
 		</div>
 		{{/if}}
 	</q>

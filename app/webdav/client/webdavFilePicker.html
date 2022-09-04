@@ -39,13 +39,13 @@
 						</div>
 					</th>
 					<th class="webdav__file-name js-sort {{#if sortBy 'name'}}is-sorting{{/if}}" data-sort="name">
-						<div class="table-fake-th"><span>Name</span>{{> Icon icon=(sortIcon 'name')}}</div>
+						<div class="table-fake-th"><span>Name</span>{{> icon icon=(sortIcon 'name')}}</div>
 					</th>
 					<th class="webdav__file-size js-sort {{#if sortBy 'size'}}is-sorting{{/if}}" data-sort="size">
-						<div class="table-fake-th"><span>Size</span>{{> Icon icon=(sortIcon 'size')}}</div>
+						<div class="table-fake-th"><span>Size</span>{{> icon icon=(sortIcon 'size')}}</div>
 					</th>
 					<th class="webdav__file-date js-sort {{#if sortBy 'date'}}is-sorting{{/if}}" data-sort="date">
-						<div class="table-fake-th"><span>Date Modified</span>{{> Icon icon=(sortIcon 'date')}}</div>
+						<div class="table-fake-th"><span>Date Modified</span>{{> icon icon=(sortIcon 'date')}}</div>
 					</th>
 				</tr>
 			</thead>
@@ -77,13 +77,13 @@
 			<div class="webdav-grid-header">
 				<div class="webdav-grid-back-icon js-webdav-grid-back-icon">{{#if $neq webdavCurrentFolder '/'}} {{>icon icon='back'}} {{/if}}</div>
 				<div class="rc-select webdav-sort">
-					<span class="webdav-sort-direction js-webdav-sort-direction"> {{> Icon icon=(sortIcon getSortBy)}} </span>
+					<span class="webdav-sort-direction js-webdav-sort-direction"> {{> icon icon=(sortIcon getSortBy)}} </span>
 					<select class="js-webdav-select-sort required rc-select__element">
 						<option value="name" selected="{{sortBy 'name'}}" dir="auto">Name</option>
 						<option value="size" selected="{{sortBy 'size'}}" dir="auto">Size</option>
 						<option value="date" selected="{{sortBy 'date'}}" dir="auto">Date Modified</option>
 					</select>
-					{{> Icon block="rc-select__arrow" icon="arrow-down"}}
+					{{> icon block="rc-select__arrow" icon="arrow-down"}}
 				</div>
 			</div>
 			<div class="webdav-grid">

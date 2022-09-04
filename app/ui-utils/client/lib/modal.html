@@ -7,7 +7,7 @@
 			<section class="close-button-position-left">
 				{{# if showCloseButton}}
 				<button title="{{_ "Close"}}" class="rc-modal__header contextual-bar__close js-close">
-					{{> Icon classes="rc-modal__close" icon="plus"}}
+					{{> icon classes="rc-modal__close" icon="plus"}}
 				</button>
 				{{/if}}
 			</section>
@@ -46,7 +46,7 @@
 						</div>
 					{{/if}}
 					{{#if type}}
-						{{> Icon block=type icon=modalIcon}}
+						{{> icon block=type icon=modalIcon}}
 					{{/if}}
 					{{#if urlText}}
 						<div class="rc-modal__content-text">
@@ -71,7 +71,7 @@
 					{{#if dontAskAgain}}
 						<label class="rc-checkbox">
 							<input type="checkbox" id="dont-ask-me-again" class="rc-checkbox__input js-modal-dont-ask">
-							{{> Icon icon="check" block="rc-checkbox__icon"}}
+							{{> icon icon="check" block="rc-checkbox__icon"}}
 							<span class="rc-checkbox__text rc-text__small">{{_ "Dont_ask_me_again"}}</span>
 						</label>
 					{{/if}}

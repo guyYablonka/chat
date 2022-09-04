@@ -20,5 +20,3 @@ createTemplateForComponent('DiscussionMetric', () =>
 createTemplateForComponent('BroadCastMetric', () =>
 	import('./components/Message/Metrics/Broadcast')
 );
-
-createTemplateForComponent('Icon', () => import('./components/Icon'));

@@ -106,9 +106,9 @@
 			{{#if isNotSystemMessage}}
 			{{#with readReceipt}}
 				<div class="read-receipt">
-					{{> Icon icon="check" }}
+					{{> icon icon="check" }}
 					{{#if readByEveryone}}
-						{{> Icon icon="check" }}
+						{{> icon icon="check" }}
 					{{/if}}
 				</div>
 			{{/with}}
@@ -119,12 +119,12 @@
 					<div class="message-actions__buttons">
 						{{#each action in messageActions 'message'}}
 							<button class="message-actions__button"  data-message-action="{{action.id}}" title="{{_ action.label}}">
-									{{> Icon block="message-actions__button-icon" icon=action.icon}}
+									{{> icon block="message-actions__button-icon" icon=action.icon}}
 							</button>
 						{{/each}}
 					</div>
 					<div class="message-actions__menu" aria-haspopup="true">
-						{{> Icon block="message-actions__menu-icon" icon="menu"}}
+						{{> icon block="message-actions__menu-icon" icon="menu"}}
 					</div>
 				</div>
 			{{/unless}}

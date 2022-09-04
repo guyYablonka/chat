@@ -8,12 +8,14 @@ Meteor.startup(() => {
 	let currentGallery = null;
 	const initGallery = async (items, options) => {
 		Blaze.render(Template.photoswipeContent, document.body);
-		const [PhotoSwipeImport, PhotoSwipeUI_DefaultImport] =
-			await Promise.all([
-				import('photoswipe'),
-				import('photoswipe/dist/photoswipe-ui-default'),
-				import('photoswipe/dist/photoswipe.css')
-			]);
+		const [
+			PhotoSwipeImport,
+			PhotoSwipeUI_DefaultImport
+		] = await Promise.all([
+			import('photoswipe'),
+			import('photoswipe/dist/photoswipe-ui-default'),
+			import('photoswipe/dist/photoswipe.css')
+		]);
 		if (!currentGallery) {
 			const PhotoSwipe = PhotoSwipeImport.default;
 			const PhotoSwipeUI_Default = PhotoSwipeUI_DefaultImport.default;

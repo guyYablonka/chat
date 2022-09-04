@@ -5,10 +5,10 @@
 	<button type="button" class="rc-button rc-button--primary js-close button-block" title="{{_ 'Livestream_switch_to_room'}}">{{_ "Livestream_switch_to_room"}}</button>
 	{{/if}} {{else}} {{#if hasThumbnail}}
 	<div class="thumbnail-container" style="background: url({{thumbnailUrl}}) 100% no-repeat no-repeat;">
-		<a href="#" class="js-popout popout--absolute-center"> {{> Icon icon="play-solid" block="popout"}} </a>
+		<a href="#" class="js-popout popout--absolute-center"> {{> icon icon="play-solid" block="popout"}} </a>
 	</div>
 	{{else}}
-	<a href="#" class="js-popout popout--absolute-center"> {{> Icon icon="play-solid" block="popout"}} </a>
+	<a href="#" class="js-popout popout--absolute-center"> {{> icon icon="play-solid" block="popout"}} </a>
 	{{/if}} {{/if}} {{else}}
 	<p>{{ streamingUnavailableMessage }}</p>
 	{{/if}} {{#if canEdit}} {{#if editing}} {{#if broadcastEnabled}} {{ > liveStreamBroadcast}} {{/if}}
@@ -40,7 +40,7 @@
 	</form>
 	{{else}}
 	<div class="setting-block livestream--url">
-		{{> Icon icon="permalink"}}
+		{{> icon icon="permalink"}}
 		<a href="#" class="current-setting streaming-source-settings"> {{ streamingSource }} </a>
 	</div>
 	{{/if}} {{/if}}

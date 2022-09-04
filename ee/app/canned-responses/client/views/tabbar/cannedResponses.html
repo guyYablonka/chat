@@ -11,7 +11,7 @@
 
 				{{#if canDeleteResponse}}
 				<div class="canned-response-delete-button">
-					{{> Icon block="rc-header__icon" icon="trash"}}
+					{{> icon block="rc-header__icon" icon="trash"}}
 					<a href="#" class="delete-canned-response" data-id="{{_id}}">{{_ "Delete"}}</a>
 				</div>
 				{{/if}}
@@ -72,7 +72,7 @@
 			<li class="canned-response-search-item">
 				<div class="canned-response-wrapper">
 					<div class="rc-input__wrapper">
-						<div class="rc-input__icon">{{> Icon block="rc-input__icon-svg" icon="magnifier" }}</div>
+						<div class="rc-input__icon">{{> icon block="rc-input__icon-svg" icon="magnifier" }}</div>
 						<input type="text" class="rc-input__element js-search" name="response-search" id="response-search" placeholder="{{_ "Search"}}" autocomplete="off" value="{{searchText}}">
 					</div>
 				</div>

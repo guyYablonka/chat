@@ -34,13 +34,13 @@
 						<label class="rc-input__label">
 							<div class="rc-input__title">{{_ "Channel_name"}}</div>
 							<div class="rc-input__wrapper">
-								<div class="rc-input__icon">{{> Icon block="rc-input__icon-svg" icon=iconType }}</div>
+								<div class="rc-input__icon">{{> icon block="rc-input__icon-svg" icon=iconType }}</div>
 								<input name="name" type="text" class="rc-input__element" placeholder="{{_ "Channel_Name_Placeholder"}}" autofocus>
 							</div>
 						</label>
 						{{#if inUse}}
 						<div class="rc-input__error">
-							<div class="rc-input__error-icon">{{> Icon block="rc-input__error-icon" icon="warning" classes="rc-input__error-icon-svg"}}</div>
+							<div class="rc-input__error-icon">{{> icon block="rc-input__error-icon" icon="warning" classes="rc-input__error-icon-svg"}}</div>
 							<div class="rc-input__error-message">{{_ "Channel_already_exist_static"}}</div>
 						</div>
 						{{/if}}
@@ -49,7 +49,7 @@
 						<label class="rc-input__label">
 							<div class="rc-input__title">{{_ "Invite_Users"}}</div>
 							<div class="rc-input__wrapper">
-								<div class="rc-input__icon">{{> Icon block="rc-input__icon-svg" icon="at"}}</div>
+								<div class="rc-input__icon">{{> icon block="rc-input__icon-svg" icon="at"}}</div>
 								<div class="rc-tags">
 									{{#each user in selectedUsers}} {{> tag user}} {{/each}} <input type="text" class="rc-tags__input" placeholder="{{_ "Username_Placeholder"}}" name="users"
 									autocomplete="off"/>
@@ -136,13 +136,13 @@
 		<span class="rc-tags__tag-text">{{nameTag}}</span>
 		{{else}}
 		<span class="rc-tags__tag-text">{{text}}</span>
-		{{/if}} {{> Icon block="rc-tags__tag-icon" icon="cross"}}
+		{{/if}} {{> icon block="rc-tags__tag-icon" icon="cross"}}
 	</span>
 </template>
 
 <template name="tagToken">
 	<span class="rc-tags__tag">
 		<span class="rc-tags__tag-text" title="balance: {{balance}}">{{token}}</span>
-		{{> Icon block="rc-tags__tag-icon" icon="cross"}}
+		{{> icon block="rc-tags__tag-icon" icon="cross"}}
 	</span>
 </template>

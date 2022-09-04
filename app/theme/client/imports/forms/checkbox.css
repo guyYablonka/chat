@@ -2,7 +2,7 @@
 	HTML structure:
 		<label class="rc-checkbox">
 			<input type="checkbox" name="dont-ask" class="rc-checkbox__input">
-			{{> Icon icon="check" block="rc-checkbox__icon"}}
+			{{> icon icon="check" block="rc-checkbox__icon"}}
 			<span class="rc-checkbox__text rc-text__small">Don't ask me again!</span>
 		</label>
  */

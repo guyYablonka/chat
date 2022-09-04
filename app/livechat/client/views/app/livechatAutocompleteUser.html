@@ -6,7 +6,7 @@
 			{{/if}}
 			<div class="rc-input__wrapper">
 				{{# if icon}}
-				<div class="rc-input__icon">{{> Icon block="rc-input__icon-svg" icon=icon}}</div>
+				<div class="rc-input__icon">{{> icon block="rc-input__icon-svg" icon=icon}}</div>
 				{{/if}}
 				<div class="rc-tags{{# unless icon}} rc-tags--no-icon{{/unless}}">
 					{{#each item in list}} {{> tag item}} {{/each}}
