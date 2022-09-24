@@ -82,3 +82,4 @@ tests/end-to-end/temporary_staged_test
 /storybook-static
 /tests/cypress/screenshots
 test-results*
+node_modules
